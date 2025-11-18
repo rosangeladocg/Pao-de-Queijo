@@ -1,13 +1,17 @@
 #DOCUMENTO DE PROJETO
 Agente de IA para Cálculo de Ingredientes e envio de mensagens – Produção de Pão de Queijo Artesanal
+
 1. Identificação do Projeto
--   Agente:Pão de Queijo
+- GitHub:rosangeladocg/Pão de Queijo
+- Agente:Pão de Queijo
 - Nome do projeto: Agente de IA para Cálculo de Ingredientes e envio de mensagens - de Pão de Queijo Artesanal
 - Responsável:Rosangela do Carmo Gomes
 - Data:17/11/2025
 - Versão:1
+  
 2. Objetivo do Projeto
 Desenvolver um agente inteligente capaz de calcular automaticamente as quantidades de ingredientes necessários para produção de pão de queijo artesanal e selecionar/ enviar mensagem para fornecedores para compra dos ingredientes.
+
 3. Escopo do Projeto
 Incluído no escopo:
 - Utilizar a Azure Foundry da Microsoft para criação do Agente.
@@ -23,7 +27,7 @@ Fora do escopo:
 
 4. Descrição Funcional do Agente
 Funções Principais:
-- Calcular ingredientes automaticamente.
+- Calcular quantidade de ingredientes automaticamente.
 - Ajustar quantidades por  unidades.
 - Selecionar o fornecedor do ingrediente de menor preço.
 - Enviar mensagem para cada fornecedor  selecionado
@@ -34,7 +38,6 @@ Requisitos Funcionais:
 - Multiplicação automática de ingredientes.
 - Cálculo por número de unidades.
 - Exibir mensagem na tela.
-
 Requisitos Não Funcionais:
 - Resposta rápida.
 - Interface intuitiva.
@@ -72,8 +75,6 @@ Fluxo:
 6. Seleciona fornecedor com menor preço 
 5. Gera mensagem por fornecedor/ingrediente via tela
 
-
-
 9. Fluxo de Conversação
 Exemplo:
 Usuário: "Quero produzir 1000 pao de queijos e enviar mensagem aos fornecedores solicitando a compra com o preço do ingrediente calculado. "
@@ -98,7 +99,6 @@ R4,00→R10,00 para 2500ml
 Ovos (Lili): R20,00
 R20,00→R100,00 para 5dz (60 ovos)
 Total geral :R$660,00
-
 
 Mensagens para os fornecedores:
  1.Mensagem para João (Queijo ralado):
@@ -131,21 +131,30 @@ Olá Lili,
 Gostaria de solicitar a compra de 5 dúzias de ovos pelo preço de R$100,00. 
 Agradeço e aguardo a confirmação.  
 Atenciosamente,  
-Rosangela  
+Rosangela
+
 10. Criterios de Aceite.
 - Cálculos corretos.
 - Conversação clara.
-- Exportação funcional.
+- Exportação funcional.(CopyPaste das mensagens)
 - Interface simples.
+  
 11. Riscos e Mitigações
 - Instrução ao agente, não definida corretamente.
 
-12. Entregáveis
-- Documento de projeto
+12. Entregáveis e Resumo 
+- Documento de projeto:(README.md)
+- Grupo de recursos:rg-rosangeladocg-5200 
+- ID do recurso do projeto:/subscriptions/7495f397-e7f5-40cc-a271-24778c178c38/
+- modelo:gpt-4o-mini (version:2024-07-18)
+- Localização:Least 2
+- Agente Pão de Queijo
+- Id do Agente: asst_0qta6HhEX4AvxTFV0tbrWMy8
+- modelo:gpt-4o-mini (version:2024-07-18)
 - Receita padrão cadastrada e fornecedores
 - Lógica implementada
 - Testes
+  
 13. Aprovação
-Responsável:
-Assinatura:
-Data:
+Responsável:Equipe da WoMarkesCode.
+
