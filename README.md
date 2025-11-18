@@ -152,7 +152,7 @@ Rosangela
 - Id do Agente: asst_0qta6HhEX4AvxTFV0tbrWMy8
 - modelo:gpt-4o-mini (version:2024-07-18)
 - Receita padrão cadastrada e fornecedores
-- Lógica implementada
+- Lógica implementada.
 - Testes
   
 13. Aprovação
