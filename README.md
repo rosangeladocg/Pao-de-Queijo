@@ -12,12 +12,11 @@ Agente de IA para Cálculo de Quantidade de Ingredientes e envio de mensagens �
 2. Objetivo do Projeto
 Desenvolver um agente inteligente capaz de calcular automaticamente as quantidades de ingredientes necessários para produção de pão de queijo artesanal e selecionar/ enviar mensagem para fornecedores para compra dos ingredientes.
 
-3. Escopo do Projeto
-   
+3. Escopo do Projeto:
 Incluído no escopo:
 - Utilizar a Azure Foundry da Microsoft para criação do Agente.
-- Criação do grupo de recurso
-- Escolha do modelo GPT-4o-mini
+- Criação do grupo de recurso.
+- Escolha do modelo.
 - Criação de agente para cálculo automático de ingredientes e envio de mensagem  para fornecedores de menor preço.
 - Incluir instrução do Agente
 - Incluir arquivo  da receita padrão.
