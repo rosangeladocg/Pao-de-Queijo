@@ -1,5 +1,5 @@
 #DOCUMENTO DE PROJETO
-Agente de IA para Cálculo de Ingredientes e envio de mensagens – Produção de Pão de Queijo Artesanal
+Agente de IA para Cálculo de Quantidade de Ingredientes e envio de mensagens – Produção de Pão de Queijo Artesanal
 
 1. Identificação do Projeto
 - GitHub:rosangeladocg/Pão de Queijo
@@ -22,6 +22,7 @@ Incluído no escopo:
 - Incluir arquivo  da receita padrão.
 - Interface simples (chat ou formulário) informando a quantidade a ser produzida e pedindo para enviar email  fornecedor.
 - Geração de  mensagens para os fornecedores  na tela.
+  
 Fora do escopo:
 - Envios de emails
 
