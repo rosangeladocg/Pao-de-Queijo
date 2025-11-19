@@ -73,6 +73,25 @@ Fluxo:
 5. Agente consulta fornecedores
 6. Seleciona fornecedor com menor preço 
 5. Gera mensagem por fornecedor/ingrediente via tela
+Fluxo:  
+flowchart TD
+
+    A([Início]) --> B[/Usuário informa quantidade desejada/]
+
+    B --> C[Agente consultar receita base]
+
+    C --> D[Agente Calcular quantidade de ingredientes necessárias]
+
+    D --> E[Agente/Exibir quantidades necessárias/]
+
+    E --> F[Agente Consultar fornecedores]
+
+    F --> G[Agente Selecionar fornecedor com menor preço]
+
+    G --> H[Agente/Gerar mensagem por fornecedor/]
+
+    H --> I([Fim])
+   
 
 9. Fluxo de Conversação
 
@@ -184,9 +203,9 @@ else:
         if message.text_messages:
             print(f"{message.role}: {message.text_messages[-1].text.value}")
 
-  
 13.![Agente](Agente1.png)
 14.![Agente](Agente2.png)
-16.![Tread](Tread.png)
+16.![Thread](hhread.png)
+
 15.   Aprovação Responsável:Equipe da WoMarkesCode.
 
