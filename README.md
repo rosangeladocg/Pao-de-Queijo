@@ -186,7 +186,9 @@ else:
     for message in messages:
         if message.text_messages:
             print(f"{message.role}: {message.text_messages[-1].text.value}")
+
   
-13. Aprovação
-Responsável:Equipe da WoMarkesCode.
+13.![Agente](Agente1.png)
+14.![Agente](Agente2.png)
+15.   Aprovação Responsável:Equipe da WoMarkesCode.
 
