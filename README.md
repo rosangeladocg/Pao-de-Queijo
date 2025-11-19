@@ -75,17 +75,15 @@ Fluxo:
 5. Gera mensagem por fornecedor/ingrediente via tela
 
 9. Fluxo de Conversação
-Exemplo:
-Usuário: "Quero produzir 1000 pao de queijos e enviar mensagem aos fornecedores solicitando a compra com o preço do ingrediente calculado. "
-Agente: 
-Para produzir 1000 pães de queijo, as quantidades necessárias de ingredientes são:
+
+1.Usuário: "Quero produzir 1000 pao de queijos e enviar mensagem aos fornecedores solicitando a compra com o preço do ingrediente calculado. "
+2.Agente: Para produzir 1000 pães de queijo, as quantidades necessárias de ingredientes são:
 Quantidades para 1000 unidades:
 Queijo ralado: 5000g
 Polvilho: 10000g
 Manteiga: 2000g
 Leite: 2500ml
 Ovos: 5dz (ou 60 ovos)
-
 Fornecedores com menor valor e preços:
 Queijo ralado (João): R50,00
  R50,00→R250,00 para 5000g
@@ -124,7 +122,6 @@ Gostaria de solicitar a compra de 2500ml de leite pelo preço de R$10,00.
 Agradeço e aguardo a confirmação.  
 Atenciosamente,  
 Rosangela  
-
  5. Mensagem para Lili (Ovos):
 Olá Lili,  
 Gostaria de solicitar a compra de 5 dúzias de ovos pelo preço de R$100,00. 
@@ -190,5 +187,6 @@ else:
   
 13.![Agente](Agente1.png)
 14.![Agente](Agente2.png)
+16.![Tread](Tread.png)
 15.   Aprovação Responsável:Equipe da WoMarkesCode.
 
