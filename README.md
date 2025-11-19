@@ -72,32 +72,18 @@ Fluxo:
 4. Exibe as quantidades necessárias.
 5. Agente consulta fornecedores
 6. Seleciona fornecedor com menor preço 
-5. Gera mensagem por fornecedor/ingrediente via tela
+7. Gera mensagem por fornecedor/ingrediente via tela
 Fluxo:  
-flowchart TD
-
-    A([Início]) --> B[/Usuário informa quantidade desejada/]
-
-    B --> C[Agente consultar receita base]
-
-    C --> D[Agente Calcular quantidade de ingredientes necessárias]
-
-    D --> E[Agente/Exibir quantidades necessárias/]
-
-    E --> F[Agente Consultar fornecedores]
-
-    F --> G[Agente Selecionar fornecedor com menor preço]
-
-    G --> H[Agente/Gerar mensagem por fornecedor/]
-
-    H --> I([Fim])
-   
+  
 
 9. Fluxo de Conversação
 
-1.Usuário: "Quero produzir 1000 pao de queijos e enviar mensagem aos fornecedores solicitando a compra com o preço do ingrediente calculado. "
+1.Usuário: "Quero produzir 1000 pao de queijos e enviar mensagem aos fornecedores solicitando a compra com o preço do ingrediente calculado."
+
 2.Agente: Para produzir 1000 pães de queijo, as quantidades necessárias de ingredientes são:
+
 Quantidades para 1000 unidades:
+
 Queijo ralado: 5000g
 Polvilho: 10000g
 Manteiga: 2000g
@@ -114,9 +100,11 @@ Leite (Ruth): R4,00
 R4,00→R10,00 para 2500ml
 Ovos (Lili): R20,00
 R20,00→R100,00 para 5dz (60 ovos)
+
 Total geral :R$660,00
 
 Mensagens para os fornecedores:
+
  1.Mensagem para João (Queijo ralado):
 Olá João,  
 Gostaria de solicitar a compra de 5000g de queijo ralado pelo preço de R$250,00. 
@@ -169,6 +157,9 @@ Rosangela
 - Receita padrão cadastrada e fornecedores
 - Lógica implementada.
 - Testes
+- Instrução:
+  Você é um agente que calcula a quantidade de  ingredientes necessários para produção de  pão de queijo  e envia uma mensagem em meu nome Rosangela, somente para os   fornecedores de cada ingrediente com o menor valor,  solicitando a compra dos ingredientes.
+O arquivo receita de pao de queijo artesanal contém a receita para produção de 100 unidades de pão de queijos e o arquivo fornecedor de pao de queijo artesanal contém o valor dos ingredientes por fornecedor para produção de 100 unidades de pão de queijos . Você não responde pergunta para mais nada.
 - Código do Programa
   
 from azure.ai.projects import AIProjectClient
@@ -205,7 +196,7 @@ else:
 
 13.![Agente](Agente1.png)
 14.![Agente](Agente2.png)
-16.![Thread](hhread.png)
+16.![Thread](thread.png)
 
 15.   Aprovação Responsável:Equipe da WoMarkesCode.
 
