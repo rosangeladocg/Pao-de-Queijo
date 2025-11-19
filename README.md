@@ -1,5 +1,5 @@
 #Agente de IA para Cálculo de Quantidade de Ingredientes e envio de mensagens – de Pão de Queijo Artesanal
-![Pao de Queijo](https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/07/pao-de-queijo-mineiro-original-2-1024x683.jpegURL_da_Imagem)
+![Pao de Queijo](pao.)
 1. Identificação do Projeto
 - GitHub:rosangeladocg/Pão de Queijo
 - Agente:Pão de Queijo
